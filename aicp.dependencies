@@ -1,6 +1,7 @@
 [
   {
-    "repository": "device_oppo_find7-common",
-    "target_path": "device/oppo/find7-common"
+    "repository": "AICP/device_oppo_find7-common",
+    "target_path": "device/oppo/find7-common",
+    "branch" : "lp5.0"
   }
 ]
