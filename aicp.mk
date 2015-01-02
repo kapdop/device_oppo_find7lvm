@@ -6,8 +6,8 @@ $(call inherit-product, device/oppo/find7/full_find7.mk)
 ## Inherit some common CM stuff.
 #$(call inherit-product, vendor/cm/config/common_full_phone.mk)
 
-PRODUCT_NAME := aicp_find7
-PRODUCT_DEVICE := find7
+PRODUCT_NAME := aicp_find7lvm
+PRODUCT_DEVICE := find7lvm
 
 PRODUCT_GMS_CLIENTID_BASE := android-oppo
 

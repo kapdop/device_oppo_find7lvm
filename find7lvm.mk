@@ -26,6 +26,11 @@ PRODUCT_PACKAGES += \
     fstab.qcom \
     init.qcom.rc
 
+# LVM
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/lvm/lvm:root/sbin/lvm \
+    $(LOCAL_PATH)/lvm/lvm.conf:root/lvm/etc/lvm.conf
+
 # Device uses high-density artwork where available
 PRODUCT_AAPT_CONFIG := normal hdpi xhdpi xxhdpi
 PRODUCT_AAPT_PREF_CONFIG := xxhdpi
