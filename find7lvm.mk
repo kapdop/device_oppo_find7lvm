@@ -24,12 +24,9 @@ TARGET_SCREEN_WIDTH := 1080
 # Ramdisk - fstab/init.qcom.rc is different for each variant
 PRODUCT_PACKAGES += \
     fstab.qcom \
-    init.qcom.rc
-
-# LVM
-PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/lvm/lvm:root/sbin/lvm \
-    $(LOCAL_PATH)/lvm/lvm.conf:root/lvm/etc/lvm.conf
+    init.qcom.rc \
+		lvm \
+		lvm.conf
 
 # Device uses high-density artwork where available
 PRODUCT_AAPT_CONFIG := normal hdpi xhdpi xxhdpi
