@@ -1,12 +1,12 @@
-$(call inherit-product, device/oppo/find7/full_find7.mk)
+$(call inherit-product, device/oppo/find7lvm/full_find7lvm.mk)
 
 ## Enhanced NFC
-#$(call inherit-product, vendor/cm/config/nfc_enhanced.mk)
+#$(call inherit-product, vendor/du/config/nfc_enhanced.mk)
 #
-## Inherit some common CM stuff.
-#$(call inherit-product, vendor/cm/config/common_full_phone.mk)
+## Inherit some common stuff.
+#$(call inherit-product, vendor/du/config/common_full_phone.mk)
 
-PRODUCT_NAME := aicp_find7lvm
+PRODUCT_NAME := du_find7lvm
 PRODUCT_DEVICE := find7lvm
 
 PRODUCT_GMS_CLIENTID_BASE := android-oppo
