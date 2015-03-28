@@ -21,4 +21,5 @@
 TARGET_RECOVERY_FSTAB := device/oppo/find7lvm/rootdir/etc/fstab.qcom
 
 # Assert
+TARGET_BOOTLOADER_BOARD_NAME := find7
 TARGET_OTA_ASSERT_DEVICE := find7,find7a,find7lvm,X9007,X9006,FIND7,FIND7LVM
