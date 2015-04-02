@@ -1,10 +1,10 @@
 $(call inherit-product, device/oppo/find7lvm/full_find7lvm.mk)
 
-## Enhanced NFC
+# Enhanced NFC
 $(call inherit-product, vendor/du/config/nfc_enhanced.mk)
-#
+
 # Inherit some common stuff.
-#$(call inherit-product, vendor/du/config/common_full_phone.mk)
+$(call inherit-product, vendor/du/config/common_full_phone.mk)
 
 PRODUCT_NAME := du_find7lvm
 PRODUCT_DEVICE := find7lvm
